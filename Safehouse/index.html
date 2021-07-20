@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>SAFEHOUSE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&family=Montserrat:wght@400;500;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+            <div class="header-top">
+                <div class="container header-top__container">
+                    <a href="index.html" class="header-top__logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                    <div class="header-top__main">
+                        <button class="menu-btn">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </button>
+                        <div class="header-top__main-inner">
+                            <nav class="menu">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a data-scrollto=".gallery" href="#" class="menu__link">Портфолио</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a data-scrollto=".our-services" href="#" class="menu__link">Услуги</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a data-scrollto=".price" href="#" class="menu__link">Цены</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a data-scrollto=".consultation-2" href="#" class="menu__link">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        <div class="header-top__call">
+                            <div class="header-top__call-number">+375 (25) 123-45-67</div>
+                            <a href="#" class="header-top__call-descr">Заказать звонок</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="container hero__container">
+                    <div class="hero__text">
+                        <h1 class="hero__title">Строительство<br> и ремонт в Гомеле</h1>
+                        <p class="hero__descr">Надежное будущее строим вместе</p>
+                        <a href="#" class="get-btn hero__text-btn">Получить консультацию</a>
+                    </div>
+                    <div class="hero__slider-wrap">
+                        <div class="hero__slider">
+                            <div>
+                                <img class="hero__slider-img" src="img/hero/img-1.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class=hero__slider-img" src="img/hero/img-2.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class=hero__slider-img" src="img/hero/img-3.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class=hero__slider-img" src="img/hero/img-4.jpg" alt="">
+                            </div>
+                            <div>
+                                <img class="hero__slider-img" src="img/hero/img-5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="hero__slider-use">
+                            <div class="hero__slider-btn hero__slider-btn--prev">
+                                <svg width="31" height="59" viewBox="0 0 31 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="hero__slider-arrow" d="M29.7461 1L1 33.4185L29.7461 58.4923" stroke="#FF7A00"/>
+                                </svg>
+                            </div>
+                            <div class="hero__slider-btn hero__slider-btn--next">
+                                <svg width="31" height="59" viewBox="0 0 31 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="hero__slider-arrow" d="M1.25387 58.4922L30 26.0736L1.25387 0.999928" stroke="#FF7A00"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <section class="work">
+        <div class="work__container container">
+            <h2 class="work__title content-title content-title--lines">КАК МЫ РАБОТАЕМ</h2>
+            <div class="work__inner">
+                <div class="work__block">
+                    <div class="work__num">01</div>
+                    <p class="work__descr">Бесплатный выезд мастера на объект для оценки работы</p>
+                </div>
+                <div class="work__block">
+                    <div class="work__num">03</div>
+                    <p class="work__descr">Оформление и подписание договора</p>
+                </div>
+                <div class="work__block">
+                    <div class="work__num">02</div>
+                    <p class="work__descr">Обсуждение работы с заказчиком</p>
+                </div>
+                <div class="work__block">
+                    <div class="work__num">04</div>
+                    <p class="work__descr">Выполнение работ в соответствии с пожеланиями заказчика</p>
+                </div>
+                <div class="work__block">
+                    <div class="work__num">05</div>
+                    <p class="work__descr">Прием работы заказчиком и окончательный расчет</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-services">
+        <div class="container">
+            <h2 class="our-services__title content-title content-title--line">НАШИ УСЛУГИ</h2>
+            <div class="our-services__inner tabs-main">
+                <div class="our-services__tabs tabs-items">
+                    <div class="our-services__tabs-item services-bg-1 icon-brush">
+                        <span class="our-services__tabs-about">Отделочные<br> работы</span>
+                    </div>
+                    <div class="our-services__tabs-item services-bg-2 icon-house">
+                        <span class="our-services__tabs-about">Строительство<br> домов</span>
+                    </div>
+                    <div class="our-services__tabs-item services-bg-3 icon-lamp">
+                        <span class="our-services__tabs-about">Электрика</span>
+                    </div>
+                    <div class="our-services__tabs-item services-bg-4 icon-plumbing">
+                        <span class="our-services__tabs-about">Сантехника</span>
+                    </div>
+                </div>
+                <div class="our-services__main tabs-blocks">
+                    <div class="our-services__block services-bg-1 tabs-elem tabs-elem--open">
+                        <div class="our-services__block-title">Отделочные работы</div>
+                        <ul class="our-services__block-list">
+                            <li class="our-services__block-item">Электромонтажные и сантехн ические работы</li>
+                            <div class="our-services__block-item">Демонтажные работы</div>
+                            <div class="our-services__block-item">Штукатурные работы </div>
+                            <div class="our-services__block-item">Малярные работы</div>
+                            <div class="our-services__block-item">Монтаж ГКЛ</div>
+                            <div class="our-services__block-item">Облицовка стен и потолков</div>
+                            <div class="our-services__block-item">Укладка плитки</div>
+                            <div class="our-services__block-item">Укладка всех видов наполных покрытий</div>
+                        </ul>
+                    </div>
+
+                    <div class="our-services__block services-bg-2 tabs-elem">
+                        <div class="our-services__block-title">Строительство домов</div>
+                        <ul class="our-services__block-list">
+                            <li class="our-services__block-item">Профессиональная укладка блоков ПГС</li>
+                            <div class="our-services__block-item">Укладка кирпича</div>
+                            <div class="our-services__block-item">Укладка пазогребневых плит</div>
+                            <div class="our-services__block-item">Монтаж плит</div>
+                            <div class="our-services__block-item">Монтаж перекрытий</div>
+                            <div class="our-services__block-item">монтаж балок и пермычек</div>
+                            <div class="our-services__block-item">Изготовление монолитного пола</div>
+                            <div class="our-services__block-item">Установка перегородок</div>
+                            <div class="our-services__block-item">Установка вентиляционных каналов</div>
+                            <div class="our-services__block-item">Кровельные работы любой сложности</div>
+                        </ul>
+                    </div>
+
+                    <div class="our-services__block services-bg-3 tabs-elem">
+                        <div class="our-services__block-title">Электрика</div>
+                        <ul class="our-services__block-list">
+                            <li class="our-services__block-item">Замена розеток и выключателей</li>
+                            <div class="our-services__block-item">Перенос розеток и выключателей</div>
+                            <div class="our-services__block-item">Замена электропроводки</div>
+                            <div class="our-services__block-item">Сборка электросчетчиков</div>
+                            <div class="our-services__block-item">Установка электросчетчиков</div>
+                        </ul>
+                    </div>
+
+                    <div class="our-services__block services-bg-4 tabs-elem">
+                        <div class="our-services__block-title">Сантехника</div>
+                        <ul class="our-services__block-list">
+                            <div class="our-services__block-item">Перенос и установка счетчиков</div>
+                            <div class="our-services__block-item">Монтаж и ремонт водопровода</div>
+                            <div class="our-services__block-item">Монтаж отопления</div>
+                            <div class="our-services__block-item">Монтаж канализации</div>
+                            <div class="our-services__block-item">Замена и перенос  полотенцесушителя</div>
+                            <div class="our-services__block-item">Установка кранов на полотенцесушитель</div>
+                            <div class="our-services__block-item">Установка инсталляций</div>
+                            <div class="our-services__block-item">Установка всех видов сантех оборудования</div>
+                            <div class="our-services__block-item">Замена батарей отопления</div>
+                            <div class="our-services__block-item">Замена и демонтаж радиатора отопления</div>
+                            <div class="our-services__block-item">Замена труб в ванной и туалете</div>
+                            <div class="our-services__block-item">Замена труб в ванной</div>
+                            <div class="our-services__block-item">Замена труб на пластиковые</div>
+                            <div class="our-services__block-item">Монтаж трубопроводов ПВХ</div>
+                            <div class="our-services__block-item">Замена и демонтаж радиатора отопления</div>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <p class="our-services__descr">Для многих ремонт — это что-то вроде стихийного бедствия, но чем тщательнее вы его спланируете, тем проще будет его пережить. А уютная, привлекательная и чистая квартира – это мечта любого человека.</p>
+        </div>
+    </section>
+    <section class="consultation-1">
+            <div class="container">
+                <h2 class="consultation-1__title content-title">Давайте воплотим Ваши мечты  в реальность!</h2>
+            </div>
+            <div class="consultation-1__main">
+                <div class="container">
+                    <div class="consultation-1__inner">
+                        <div class="consultation-1__consultation-block consultation-block">
+                                <h2 class="consultation-block__title">ЗАПОЛНИТЕ ФОРМУ</h2>
+                            <form action="">
+                                <div class="consultation-block__input-wrap">
+                                    <input class="consultation-block__input" type="text" placeholder="Ваше имя">
+                                    <input class="consultation-block__input consultation-block__input--number" type="text" placeholder="Номер телефона">
+                                </div>
+                                <label class="consultation-block__label" for="consultation-textarea">Опишите Вашу  заявку</label>
+                                <textarea class="consultation-block__textarea" name="" id="consultation-textarea" cols="30" rows="10"></textarea>
+                                <input class="consultation-block__btn get-btn" type="submit" value="Получить консультацию">
+                                <div class="consultation-block__checkbox-wrap">
+                                    <input class="consultation-block__checkbox" id="consultation-checkbox" type="checkbox" value="yes">
+                                    <label class="consultation-block__checkbox-label" for="consultation-checkbox">Принимаю условия Политики конфединциальности</label>
+                                </div>
+                            </form>
+                        </div>
+                        <img class="consultation-1__img" src="img/consultation/img-1.png" alt="consultation-img">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="about-us">
+        <div class="container">
+            <div class="about-us__inner">
+                <div class="about-us__text">
+                    <h2 class="about-us__title">О НАС</h2>
+                    <ul class="about-us__list">
+                        <li class="about-us__item">Качественное проведение работ</li>
+                        <li class="about-us__item">Обсуждение работы на каждом этапе</li>
+                        <li class="about-us__item">Профессиональный инструмент</li>
+                        <li class="about-us__item">Начинаем работу без аванса</li>
+                        <li class="about-us__item">Доступные цены</li>
+                    </ul>
+                </div>
+               <div class="about-us__nums">
+                    <div class="about-us__circle">
+                        <div class="about-us__circle-item">
+                            <div class="about-us__circle-inner">
+                                <div class="about-us__circle-text">более</div>
+                                <div class="about-us__circle-num">15</div>
+                                <div class="about-us__circle-text">лет успешной работы</div>
+                            </div>
+                        </div>
+                        <div class="about-us__circle-item">
+                            <div class="about-us__circle-inner">
+                                <div class="about-us__circle-text">более</div>
+                                <div class="about-us__circle-num">1000</div>
+                                <div class="about-us__circle-text">м2 готовых объектов</div>
+                            </div>
+                        </div>
+                        <div class="about-us__circle-item">
+                            <div class="about-us__circle-inner">
+                                <div class="about-us__circle-text">более</div>
+                                <div class="about-us__circle-num">500</div>
+                                <div class="about-us__circle-text">довольных клиентов</div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <h2 class="gallery__title content-title content-title--lines">ГАЛЕРЕЯ РАБОТ</h2>
+            <div class="gallery__row">
+                <div class="gallery__block">
+                    <div class="gallery__block-inner" style='background-image: url("img/gallery/img-1.jpg")'>
+                        <div class="gallery__block-title">ПЛИТКА</div>
+                    </div>
+                </div>
+                <div class="gallery__block">
+                    <div class="gallery__block-inner" style='background-image: url("img/gallery/img-2.jpg")'>
+                        <div class="gallery__block-title">КЛАДКА</div>
+                    </div>
+                </div>
+                <div class="gallery__block">
+                    <div class="gallery__block-inner" style='background-image: url("img/gallery/img-3.jpg")'>
+                        <div class="gallery__block-title">ОТДЕЛКА</div>
+                    </div>
+                </div>
+                <div class="gallery__block">
+                    <div class="gallery__block-inner" style='background-image: url("img/gallery/img-4.jpg")'>
+                        <div class="gallery__block-title">КРОВЛЯ</div>
+                    </div>
+                </div>
+                <div class="gallery__block">
+                    <div class="gallery__block-inner" style='background-image: url("img/gallery/img-5.jpg")'>
+                        <div class="gallery__block-title">САНТЕХНИКА</div>
+                    </div>
+                </div>
+                <div class="gallery__block">
+                    <div class="gallery__block-inner" style='background-image: url("img/gallery/img-6.jpg")'>
+                        <div class="gallery__block-title">ЭЛЕКТРИКА</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="container price__container">
+            <h2 class="price__title content-title">ПРАЙС-ЛИСТ НА УСЛУГИ</h2>
+            <div class="price__table-wrap">
+                <table class="price__table">
+                    <thead>
+                        <tr class="price__table-row">
+                            <th class="price__table-item price__table-title price__table-title--left">Наименование работ</th>
+                            <th class="price__table-item price__table-item--title price__table-title">Ед.измерения</th>
+                            <th class="price__table-item price__table-item--title price__table-title">Цена от,  руб</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Штукатурка по маякам</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">10</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Установка и демонтаж маяка</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">2</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Штукатурка потолка по плоскости</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">5</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Монтаж армирующей сетки</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">2</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Монтаж ГКЛ (ровный)</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">10</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Монтаж конструкций ГКЛ короб</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">10</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Монтаж конструкций ГКЛ со скрытой подсветкой</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">12</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Монтаж криволинейного потолочного откоса</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">12</td>
+                        </tr>
+
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Финишное шлифование и зачистка потолка</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">4</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Проклейка швов серпянкой</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">3</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Монтаж подвесного потолка «Грильято»</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">10</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Монтаж подвесного потолка «Армстронг»</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">8</td>
+                        </tr>
+
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Монтаж пластиковых панелей на потолке	</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">10</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Монтаж натяжного потолка (с материалом)	</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">16</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Поклейка декоративного багета (галтель)</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">44</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Подготовка конструкции короб ГКЛ к покраске</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">4</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Выравнивание балок одна плоскость	
+                            </th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">5</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Установка перфорированного угла	</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">2</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Шлифовка</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">2</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Заделка стыков ГКЛ, проклейка ленты	</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">2</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Покраска потолка</th>
+                            <td class="price__table-item">м²</td>
+                            <td class="price__table-item">3</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Покраска конструкций ГКЛ	</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">3</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Окраска , полиуретанового потолочного плинтуса</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">2</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Оклейка потолочного плинтуса пенопласт</th>
+                            <td class="price__table-item">м.пог</td>
+                            <td class="price__table-item">5</td>
+                        </tr>
+                        <tr class="price__table-row">
+                            <th class="price__table-item">Грунтовка</th>
+                            <td class="price__table-item"></td>
+                            <td class="price__table-item"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="price__btn-wrap">
+                <a href="#" class="price__get-btn get-btn">Скачать весь прайс</a>
+            </div>
+        </div>
+    </section>
+    <section class="consultation-2">
+        <div class="container">
+            <h2 class="consultation-2__content-title content-title">СВЯЖИТЕСЬ С НАМИ ИЛИ ОСТАВЬТЕ ЗАЯВКУ</h2>
+        </div>
+        <div class="consultation-2__main">
+            <div class="container">
+                <div class="consultation-2__inner">
+                    <div class="consultation-block consultation-2__consultation-block">
+                        <h2 class="consultation-block__title">ЗАПОЛНИТЕ ФОРМУ</h2>
+                        <form action="">
+                            <div class="consultation-block__input-wrap">
+                                <input class="consultation-block__input" type="text" placeholder="Ваше имя">
+                                <input class="consultation-block__input consultation-block__input--number" type="text" placeholder="Номер телефона">
+                            </div>
+                            <label class="consultation-block__label" for="consultation-textarea">Опишите Вашу  заявку</label>
+                            <textarea class="consultation-block__textarea" name="" id="consultation-textarea" cols="30" rows="10"></textarea>
+                            <input class="consultation-block__btn get-btn" type="submit" value="Получить консультацию">
+                            <div class="consultation-block__checkbox-wrap">
+                                <input class="consultation-block__checkbox" id="consultation-2-checkbox" type="checkbox" value="yes">
+                                <label class="consultation-block__checkbox-label" for="consultation-2-checkbox">Принимаю условия Политики конфединциальности</label>
+                            </div>
+                        </form>
+                    </div>
+                    <img class="consultation-2__img" src="img/consultation/img-2.png" alt="consultation-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__contact">
+                    <a href="tel:+375291234567" class="footer__contact-link icon-phone">+ 375-29-123-45-67</a>
+                    <a href="mailto:stroyka@gmail.com" class="footer__contact-link icon-paper">stroyka@gmail.com</a>
+                </div>
+                <div class="footer__info">
+                    <ul class="footer__info-list">
+                        <li class="footer__info-item">ИП Костин А.Н.</li>
+                        <li class="footer__info-item">УНП      11111111111</li>
+                        <li class="footer__info-item">Юридический адрес</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__end">
+                <span class="footer__end-text">© Safehouse 2021</span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
